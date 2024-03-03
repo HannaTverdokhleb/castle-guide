@@ -516,16 +516,17 @@ ul {
     transition: var(--transition);
 }
 .more-info-link:hover .ad-img-desc {
-    background-color: #000;
+    background: #000;
 }
 .ad-img {
     display: block;
 }
 .ad-img-desc {
+    display: block;
     transition: var(--transition);
     padding: 10px;
     color: var(--light-background);
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     bottom: 0;
     left: 0;
