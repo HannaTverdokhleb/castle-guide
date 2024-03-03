@@ -220,9 +220,12 @@ ul {
     color: var(--accent-color);
 }
 .main-button {
+    cursor: pointer;
     font-family: var(--alt-font);
     font-weight: 600;
-    letter-spacing: -0.16px;
+    font-size: 14px;
+    line-height: 1;
+    /* letter-spacing: -0.16px; */
     transition: var(--transition);
     display: flex;
     align-items: center;
@@ -527,6 +530,8 @@ ul {
     left: 0;
     width: 100%;
     white-space: nowrap;
+    right: 0;
+    height: 39px;
 }
 .footer {
     padding: 80px 0 0;
