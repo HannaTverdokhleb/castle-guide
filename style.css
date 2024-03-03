@@ -521,11 +521,12 @@ ul {
     transition: var(--transition);
     padding: 10px;
     color: var(--light-background);
-    background-color: rgb(0 0 0 / 0.5);
+    background-color: rgb(0, 0, 0, 0.5);
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
+    white-space: nowrap;
 }
 .footer {
     padding: 80px 0 0;
@@ -668,7 +669,7 @@ ul {
         width: 280px;
         padding: 50px 30px;
         background-color: #fff;
-        height: -webkit-fill-available;
+        height: calc(100vh - 90px);
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     }
     .menu-list.open {
@@ -894,6 +895,7 @@ ul {
     }
     .menu-list {
         top: 70px;
+        height: calc(100vh - 70px);
     }
     .menu-burger {
         transform: scale(0.9);
