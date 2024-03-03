@@ -278,10 +278,11 @@ ul {
     margin-bottom: 50px;
     color: var(--text-black-color);
 }
-.download-link {}
+.download-link {
+    transition: var(--transition);
+}
 .download-link:hover {
     transform: scale(1.05);
-    transition: var(--transition);
 }
 .appstore-link {
     margin-right: 20px;
@@ -548,10 +549,10 @@ ul {
     margin: 0 0 4px 0;
 }
 .footer-link {
-    transition: var(--transition);
+    text-decoration: underline;
 }
 .footer-link:hover {
-    color: var(--accent-color);
+    text-decoration: none;
 }
 .footer-info-block:nth-child(1) {
     flex: 1 1 38%;
