@@ -918,6 +918,23 @@ ul {
     .rates-section .s-title {
         margin-bottom: 20px;
     }
+    .rates-list {
+        max-width: 310px;
+    }
+    .rate-item-text p:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .rates-link {
+        margin-top: 20px;
+    }
+    .retes-suptitle {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .rate-item-title {
+        margin-bottom: 10px;
+    }
+
 }
 @media (max-width: 560px) { 
     .advantages-section {
